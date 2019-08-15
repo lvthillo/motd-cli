@@ -17,8 +17,8 @@ Flags:
 exit status 1
 ```
 
-Use ```DEBUG``` and preview and parameters:
-````
+Use `DEBUG` and preview and parameters:
+```
 $ DEBUG=true go run main.go --preview --name lvthillo --greeting Hello
 Name: lvthillo
 Greeting: Hello
@@ -27,7 +27,7 @@ Preview: true
 ```
 
 Use preview and short parameters:
-````
+```
 $ go run main.go --preview --name lvthillo --greeting Hello 
 Hello, lvthillo
 ```
@@ -41,14 +41,14 @@ Hello, lvthillo
 ```
 
 Use parameters:
-````
+```
 $ go run main.go --name lvthillo --greeting Hello
 $ cat file.txt
 Hello, lvthillo
 ```
 
 Use short prompt flag:
-````
+```
 $ go run main.go -p
 Your Greeting: Hello
 Your Name: lvthillo
